@@ -1,0 +1,98 @@
+.container {
+  position: relative;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: hsla(198, 45%, 55%, 1);
+  background-image:
+    radial-gradient(at 40% 20%, rgba(194, 215, 245, 0.986) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgb(188, 251, 245) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, rgb(254, 239, 239) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, rgb(250, 244, 234) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(261, 30%, 100%, 1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(121, 30%, 100%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, rgb(255, 255, 255) 0px, transparent 50%);
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 12px;
+  box-shadow: 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.shape {
+  position: relative;
+  border-radius: 50%;
+}
+
+.shape1 {
+  top: -50px;
+  left: -50px;
+  width: 150px;
+  height: 150px;
+  background: rgba(231, 229, 229, 0.2);
+}
+
+.shape2 {
+  bottom: -50px;
+  right: -50px;
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.pageTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5rem;
+  color: #333;
+}
+
+.quizList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quizItem {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quizItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.quizLink {
+  font-size: 1.5rem;
+  color: #0070f3;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.quizLink:hover {
+  text-decoration: underline;
+}
+
+.quizDetails {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.noQuizzes {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333;
+  padding: 3rem;
+}
